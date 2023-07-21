@@ -1,0 +1,67 @@
+.container_main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* position: absolute; */
+  width: 100vw;
+  height: 80vh;
+  top: 0;
+}
+.container_timer{
+  background-color: #393053;
+  padding: 3rem 12rem;
+  border-radius: 20px;
+  margin-bottom: 1.5rem;
+}
+.timer_text{
+  font-family: 'Concert One', cursive;;
+  font-size: 12rem;
+}
+.task_name{
+  font-size: 2rem;
+}
+
+.control_btn{
+  font-size: 4rem;
+  text-transform: uppercase;
+  background-color: #635985;
+  /* text-align: center; */
+  width: fit-content;
+  padding: 1rem;
+  /* margin-left: 25%; */
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 200ms;
+}
+
+.control_btn:hover{
+  filter: brightness(0.9);
+}
+
+.control_container{
+  justify-content: center;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.timerChange{
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.timerChange h1{
+  background-color: #635985;
+  padding: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 200ms;
+
+}
+.timerChange h1:hover{
+  filter: brightness(0.9);
+
+}
